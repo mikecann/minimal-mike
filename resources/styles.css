@@ -1,0 +1,131 @@
+.background {
+  viewport-fill: black;
+}
+
+#timeLabel {
+  font-size: 110;
+  font-family: Colfax-Light;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+20;
+  fill: #FFA500;
+}
+
+#dateLabel {
+  font-size: 32;
+  font-family: Colfax-Light;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+65;
+  fill: #FFFFFF;
+}
+
+#syncLabel {
+  font-size: 24;
+  font-family: Colfax-Light;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+95;
+  fill: #FFFFFF;
+}
+
+#batteryLabel {
+  font-size: 24;
+  text-length: 32;
+  text-anchor: start;
+  x: 30;
+  y: 25;
+  fill: white;
+}
+
+#batteryIcon {
+  x: 4;
+  y: 7;
+  width: 20;
+  height: 20;
+  fill: #FFA500;
+}
+
+#batteryBar {
+  x: 11;
+  y: 13;
+  fill: #FFA500;
+}
+
+#hrLabel {
+  font-size: 24;
+  text-length: 32;
+  text-anchor: start;
+  x: 35;
+  y: 100%-10;
+  fill: white;
+}
+
+#hrIcon {
+  x: 4;
+  y: 100%-28;
+  width: 24;
+  height: 24;
+  fill: #FFA500;
+}
+
+#stepsLabel {
+  font-size: 24;
+  text-length: 32;
+  text-anchor: end;
+  x: 100%-35;
+  y: 100%-10;
+  fill: white;
+}
+
+#stepsIcon {
+  x: 100%-28;
+  y: 100%-30;
+  width: 24;
+  height: 24;
+  fill: #FFA500;
+}
+
+/*
+#pressureLabel {
+  font-size: 24;
+  text-length: 32;
+  text-anchor: end;
+  x: 100%-35;
+  y: 25;
+  fill: white;
+}
+
+
+#pressureIcon {
+  x: 100%-28;
+  y: 5;
+  width: 24;
+  height: 24;
+  fill: #FFA500;
+}
+*/
+
+#stairsLabel {
+  font-size: 24;
+  text-length: 32;
+  text-anchor: end;
+  x: 100%-35;
+  y: 25;
+  fill: white;
+}
+
+#stairsIcon {
+  x: 100%-28;
+  y: 5;
+  width: 24;
+  height: 24;
+  fill: #FFA500;
+}
+
+
+
+

@@ -1,0 +1,23 @@
+<svg class="background">
+  <text id="timeLabel" />  
+  <text id="dateLabel" />  
+  <text id="syncLabel" />
+  
+  <text id="batteryLabel" />
+  <image id="batteryIcon" href="battery_solid_24px.png" class="image" />
+  <rect width="6" height="100" id="batteryBar" />
+  
+  <text id="hrLabel" />
+  <image id="hrIcon" href="heart_open.png" class="image" />
+  
+  <text id="stepsLabel" />
+  <image id="stepsIcon" href="steps.png" class="image" />
+  
+  <!-- <text id="pressureLabel" /> -->
+  <!-- <image id="pressureIcon" href="pressure.png" class="image" /> -->
+  
+  <text id="stairsLabel" />
+  <image id="stairsIcon" href="stairs.png" class="image" />
+  
+  <rect width="100%" height="100%" opacity="0" fill="white" id="tap-target" pointer-events="visible"/>
+</svg>

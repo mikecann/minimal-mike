@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0"
+  },
+  "fitbit": {
+    "appUUID": "e865d518-7a36-41b2-b3e7-e12789c138a8",
+    "appType": "clockface",
+    "appDisplayName": "Minimal Mike",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_user_profile",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "mira",
+      "gemini",
+      "meson",
+      "higgs"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Minimal Mike"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
